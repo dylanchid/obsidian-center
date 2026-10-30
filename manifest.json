@@ -1,0 +1,9 @@
+{
+  "id": "center",
+  "name": "Center",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Center selected text with a command or ribbon button.",
+  "author": "dylanchid",
+  "isDesktopOnly": false
+}

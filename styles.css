@@ -1,0 +1,26 @@
+/* Center callouts are intentionally invisible containers: only their content shows. */
+.callout[data-callout="center"] {
+  --callout-color: 0, 0, 0;
+  --callout-icon: none;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  margin-block: var(--p-spacing);
+  padding: 0;
+}
+
+.callout[data-callout="center"] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout="center"] > .callout-content {
+  text-align: center;
+}
+
+.callout[data-callout="center"] > .callout-content > :first-child {
+  margin-top: 0;
+}
+
+.callout[data-callout="center"] > .callout-content > :last-child {
+  margin-bottom: 0;
+}
